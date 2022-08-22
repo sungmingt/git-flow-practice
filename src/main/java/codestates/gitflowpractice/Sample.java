@@ -10,4 +10,9 @@ public class Sample {
     public String sample() {
         return "To-do Application !";
     }
+
+    @GetMapping
+    public String sample2() {
+        return "sample page";
+    }
 }
